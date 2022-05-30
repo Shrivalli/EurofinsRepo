@@ -26,7 +26,7 @@ namespace ADONETEg
                 Console.WriteLine();
             }
         }
-
+    //new method of disconselect
         public void DisconSelect()
         {
             int i = 0;
