@@ -29,6 +29,7 @@ namespace ADONETEg
 
         public void DisconSelect()
         {
+            int i = 0;
             con = getcon();
             cmd = new SqlCommand("select * from Employee;", con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
